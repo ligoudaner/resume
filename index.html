@@ -104,7 +104,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="item">
+						<!-- <div class="item">
 							<header class="item-hd" />
 							<span class="item-time">2015.04-2017.02</span>
 							<h2 class="item-name">上海家易房地产<i class="iconfont icon-dot"></i>上海家易房地产管理系统</h2>
@@ -112,7 +112,7 @@
 							</header>
 							<div class="item-bd">
 								<p class="section-content">
-									<!-- 项目描述：家易房地产系统用创新的运营理念力争改变中国房地产经纪行业。我们以“高科技，低成本”为战略，将冗余的成本回馈给经纪人及消费者；同时引进美国独立经纪人模式与中国市场无缝对接，研发出新一代“SOHO电子化经纪人”以及O+O的模式，帮助房地产经纪人将成就自己的事业，而不是单纯为了公司工作而工作，为了生存而工作，以独特的商业模式让房地产经纪人成为主角。里面包含房源、委托、意向金、定金、租赁这几种交易类型。</br> -->
+									项目描述：家易房地产系统用创新的运营理念力争改变中国房地产经纪行业。我们以“高科技，低成本”为战略，将冗余的成本回馈给经纪人及消费者；同时引进美国独立经纪人模式与中国市场无缝对接，研发出新一代“SOHO电子化经纪人”以及O+O的模式，帮助房地产经纪人将成就自己的事业，而不是单纯为了公司工作而工作，为了生存而工作，以独特的商业模式让房地产经纪人成为主角。里面包含房源、委托、意向金、定金、租赁这几种交易类型。</br>
 									主要负责：</br>
 									1. 使用SpringSecurity 来处理登录权限问题，并与微信OAUTH2.0授权登录结合，使用微信扫码登录</br>
 									2. 使用redis的数据定时过期特性，用以缓存一些临时性数据，如验证码，邮箱认证等</br>
@@ -122,10 +122,10 @@
 									6. 使用JUnit进行单元测试</br>
 								</p>
 							</div>
-						</div>
+						</div> -->
 						<div class="item">
 							<header class="item-hd" />
-							<span class="item-time">2017.02-2017.08</span>
+							<span class="item-time">2015.04-2017.08</span>
 							<h2 class="item-name">上海千穆计算机技术有限公司<i class="iconfont icon-dot"></i>浙江省储备粮管理系统</h2>
 							<span class="item-more"></span>
 							</header>
@@ -133,17 +133,17 @@
 								<p class="section-content">
 									<!-- 项目描述：对国家战略储备粮全方位数字化信息化管理,全面监控粮食温度通风,测虫,测测測气。并且实现远程控制和自动控制对所有智能化设备的监控数据进行大数据分析,实现现国家智慧粮库四化粮仓的宏伟目标</br> -->
 									主要负责：</br>
-									1. 使用SpringCloud，Shiro,Spring Data JPA开发</br>
-									2. 使用Shiro 来处理登录权限问题</br>
-									3. 使用activity工作流来处理审批流程</br>
-									4. 使用Redis存储字典信息，存储session，解决登录同步问题</br>
-									5. 负责大部分业务的RESTFul接口开发</br>
+									1. 使用SpringBoot，Shiro,Spring Data JPA开发</br>
+									2. 使用activity工作流来处理审批流程</br>
+									3. 负责大部分业务的RESTFul接口开发</br>
+									4. 定义统一的异常，分情况的返回前端400或500的报错信息，通过Spring AOP读取错误，发工程师异常邮件。</br>
+									5. 使用JUnit进行单元测试</br>
 								</p>
 							</div>
 						</div>
 						<div class="item">
 							<header class="item-hd" />
-							<span class="item-time">2017.08-至今</span>
+							<span class="item-time">2017.08-2018.06</span>
 							<h2 class="item-name">上海华仓通信技术有限公司<i class="iconfont icon-dot"></i>内部系统OA</h2>
 							<span class="item-more"></span>
 							</header>
@@ -152,7 +152,7 @@
 									<!-- 项目描述：主要针对内部业务流程的实现和常规的人事流程财务流程等工作流的实现</br> -->
 									主要负责：</br>
 									1. 使用SpringMVC、Shiro 、MyBatis、Activity、mysq开发</br>
-									2. 使用Shiro 来处理登录权限问题
+									2. 使用Shiro 来处理登录权限问题</br>
 									3. 使用activity工作流来处理审批流程</br>
 									4. 使用Redis存储用户登录情况，限制用户登录失败次数过多给锁定一小时</br>
 									5. 使用Quartz 定时任务每天发送推送给员工写工作日志，检查打卡，请假，处理打卡的逻辑性。</br>
@@ -161,6 +161,29 @@
 								</p>
 							</div>
 						</div>
+
+
+
+						<div class="item">
+							<header class="item-hd" />
+							<span class="item-time">2018.06-至今</span>
+							<h2 class="item-name">上海重信金融信息服务（集团）有限公司<i class="iconfont icon-dot"></i>零用分期平台</h2>
+							<span class="item-more"></span>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									<!-- 项目描述：主要针对内部业务流程的实现和常规的人事流程财务流程等工作流的实现</br> -->
+									项目技术：SpringBoot、Shiro、Mybatis、Mysql、JWT</br>
+									1、负责理财端和借款端的资金操作，充值和提现，资金的交易明细。</br>
+									2、负责借款端的每期的账单生成</br>
+									3、负责借款端的还款业务，使用乐观锁解决并发问题</br>
+									4、定时查询账单时候到期改变账单的状态值发送站内信和发送短信通知用户</br>
+								</p>
+							</div>
+						</div>
+
+
+
 					</div>
 				</section>
 			</div>
@@ -177,7 +200,7 @@
 								<p class="section-content"><i class="iconfont icon-dot"></i>熟练使用<em>Java</em>、<em>JavaScript</em>编程语言进行软件开发</p>
 							</li>
 							<li>
-								<p class="section-content"><i class="iconfont icon-dot"></i>熟练运用<em>SpringMVC</em>、<em>Spring Boot</em>、<em>SpringCloud</em>、<em>SpringSecurity</em>、<em>Shiro</em>、<em>MyBatis</em>、<em>Spring Data JPA</em>主流框架</p>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟练运用<em>SpringMVC</em>、<em>Spring Boot</em>、<em>Shiro</em>、<em>MyBatis</em>、<em>Spring Data JPA</em>主流框架</p>
 							</li>
 							
 							<li>
@@ -198,9 +221,9 @@
 							<li>
 								<p class="section-content"><i class="iconfont icon-dot"></i>了解使用<em>jenkins</em>进行服务部署</p>
 							</li>
-							<li>
+							<!-- <li>
 								<p class="section-content"><i class="iconfont icon-dot"></i>了解使用<em>mycat</em>进行多租户的实现</p>
-							</li>
+							</li> -->
 							<li>
 								<p class="section-content"><i class="iconfont icon-dot"></i>了解<em>Nginx</em>做转发处理</p>
 							</li>
